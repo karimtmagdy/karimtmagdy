@@ -10,3 +10,4 @@ def introduce_yourself(request):
     introduction = f"Hello, my name is {name}. I am a {occupation} and my interests include {', '.join(interests)}."
 
     return Response({'introduction': introduction})
+ 
